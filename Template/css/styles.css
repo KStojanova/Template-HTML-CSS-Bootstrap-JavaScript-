@@ -1,0 +1,316 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+    font-size: 16px;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  /*img{
+      width: inherit;
+  } */
+ 
+ .bg-img{
+     background-image: url(../images/banner-bg.png);
+     min-height: 380px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+ }
+ .nav{
+    padding:15px 10px !important; 
+     transition: 0.4s;
+     overflow: hidden;
+ }
+ 
+ .nav a:hover {
+    color:red;
+  }
+  .nav a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+ .navbar-brand{
+     color: white;
+     text-transform: uppercase;
+     font-weight: bolder;
+ }
+ .navbar-nav .nav-link {
+     color:white;
+     text-transform: uppercase;
+ }
+ .wtext{
+     align-self: center;
+ }
+ .wtext>p{
+    font-weight: 300;
+    font-size: 17px;
+    color: #fff;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+ .wtext>h1{
+     font-weight: 400;
+     font-size: 64px;
+     line-height: 80px;
+     letter-spacing: 1.4px;
+     margin-bottom: 30px;
+     color: #fff;
+ }
+ .mx-auto{
+     margin-left: auto!important;
+     padding-right: 70px;
+     padding-top: 70px;
+     padding-bottom: 40px;
+ }
+ .btn{
+     border-radius: 50px;
+ }
+ .discover{
+     margin-top: 100px;
+ }
+ .dimage{
+ padding-left:40px;
+ }
+ .dtext{
+     padding-left: 40px;
+     padding-right: 60px;
+     padding-top: 50px;
+ }
+ ul,li {
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+  }
+  .im3{
+      width:650px ;
+  }
+  
+.curabitur h5{
+    font-size: 26px;
+    font-weight: 700;
+    color: #1e1e1e;
+    line-height: 40px;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+}
+
+.curabitur ul li .text h6{
+    padding-top: 12px;
+    font-size: 21px;
+    font-weight: 500;
+    color: #1e1e1e;
+    margin-bottom: 20px;
+}
+
+
+#carousel-container{
+    background-color:rgb(0, 175, 202);
+}
+
+.card{
+    width: 350px;
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+
+.carousel-control-next-icon {
+    margin-right: -100px;
+}
+.carousel-control-prev-icon {
+    margin-left: -200px;
+}
+
+.card-body h6{
+    color: black;
+    font-weight: bold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.card-body p{
+    color:gray;
+    font-weight: 400;
+}
+
+.questions h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 300;
+    color: #232323;
+    margin-bottom: 20px;
+}
+#qp{
+    font-size: 17px;
+    color: #777;
+    text-align: center;
+}
+.left-text{
+    align-self:center !important;
+}
+.left-text h3{
+    font-size: 26px;
+    font-weight: 700;
+    color: #1e1e1e;
+    line-height: 40px;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+}
+.left-text p{
+
+margin-bottom: 30px;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.5px;
+
+}
+.icon{
+    align-self: flex-end;
+}
+.panel{
+    width: 350px;
+    padding:20px;
+}
+#accordion{
+    width: 350px;
+    background-color: #f7f7f7;;
+}
+.accordion-toggle{
+    color: black;
+}
+.contact{
+    margin-top:100px;
+}
+#contact-row{
+    background-color: rgb(0, 175, 202);
+}
+.maps{
+    text-align: center;
+    align-self: center;
+}
+.contact-place{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#btnd{
+    margin-bottom: 20px;
+}
+.vcenter{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.pull-left{
+    text-align: center;
+}
+.soc-ic{
+    text-align: end;
+    margin-bottom:20px ;
+}
+.fab{
+text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 2em;
+}
+.curabitur ul li img{
+    display: inline;
+    float: left;
+}
+.curabitur ul li .text{
+    margin-left: 80px;
+}
+.card-img-top{
+    position: absolute;
+    text-align: center;
+    display: block;
+    width: 100%;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 30px;
+    background: #00b4c6;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: relative;
+
+}
+.card-title{
+    font-weight: 500;
+    font-size: 18px;
+    color: #1e1e1e;
+    letter-spacing: 0.7px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+}
+.card-text{
+    font-weight: 400;
+    font-size: 13px;
+    color: #777;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    position: relative;
+    z-index: 2;
+}
+.card{
+    width: 360px; 
+    margin-right: 30px;
+}
+#card1-p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #777;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    position: relative;
+    z-index: 2;
+}
+.panel-questions{
+    align-self: center;
+}
+.contact-form input, .contact-form textarea {
+    color: #777;
+    font-size: 14px;
+    border: none;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-bottom: 30px;
+}
+.contact-form textarea{
+    color: #777;
+    font-size: 14px;
+    border: none;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-bottom: 30px;
+}
+.contact-field {
+    background-color: rgba(250, 250, 250, 0.3);
+}
